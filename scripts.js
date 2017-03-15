@@ -5,7 +5,7 @@ var animal = 'Zielone słonie';
 
 var animalUpperCased = animal.toUpperCase();
 
-var txtCharsAfter = txt.replace('Papugi', animal);
+var txtCharsAfter = txt.replace('Papugi', animalUpperCased);
 console.log(txtCharsAfter);
 
 txtCharsAfter.lenght;
