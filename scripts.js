@@ -8,6 +8,6 @@ var animalUpperCased = animal.toUpperCase();
 var txtCharsAfter = txt.replace('Papugi', animalUpperCased);
 console.log(txtCharsAfter);
 
-txtCharsAfter.lenght;
-console.log(txtCharsAfter.substr(0, 41));
+var halfTxtCharsAfter = txtCharsAfter.slice(0,txtCharsAfter.length/2);
+console.log(halfTxtCharsAfter);
 
